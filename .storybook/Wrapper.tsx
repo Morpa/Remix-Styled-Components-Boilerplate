@@ -1,9 +1,9 @@
-import { globalStyles } from "../app/styles/stitches.config";
+import GlobalStyles from "../app/styles/global";
 
 export const Wrapper = ({ children }) => {
-  globalStyles();
   return (
     <>
+      <GlobalStyles />
       {children}
     </>
   );

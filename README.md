@@ -1,4 +1,60 @@
-# Welcome to Remix!
+<h1 align="center">Remix Boilerplate</h1>
+
+<p align="center">
+  <img alt="Made by" src="https://img.shields.io/badge/made%20by-Morpa%20-%2356BEB8">
+
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/morpa/Remix-Styled-Components-Boilerplate.svg?color=56BEB8">
+
+  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/morpa/Remix-Styled-Components-Boilerplate.svg?color=56BEB8">
+
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Morpa/Remix-Styled-Components-Boilerplate?color=56BEB8">
+
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Morpa/Remix-Styled-Components-Boilerplate?color=56BEB8">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Morpa/Remix-Styled-Components-Boilerplate?color=56BEB8">
+
+</p>
+
+## What is inside?
+
+This project uses lot of stuff as:
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Remix](https://remix.run/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Storybook](https://storybook.js.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Commands
+
+- `dev`: runs your application on `localhost:3000`
+- `build`: creates the production build version
+- `start`: starts a simple server with the build production code
+- `lint`: runs the linter in all components and pages
+- `test`: runs jest to test all components and pages
+- `test:watch`: runs jest in watch mode
+- `storybook`: runs storybook on `localhost:6006`
+- `build-storybook`: create the build version of storybook
+
+## Learn More
 
 - [Remix Docs](https://remix.run/docs)
 

@@ -1,1 +1,1 @@
-export { default as StyleContext } from './StyleContext';
+export { default as StyleContext } from './StyleContext'

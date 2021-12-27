@@ -12,6 +12,9 @@ updates:
     - 14.14.35
     - 15.0.0
     - 15.0.1
+  - dependency-name: styled-components
+    versions:
+    - 5.2.2
   - dependency-name: "@testing-library/jest-dom"
     versions:
     - 5.11.10
