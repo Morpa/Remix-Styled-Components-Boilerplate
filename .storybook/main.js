@@ -9,7 +9,7 @@ module.exports = {
   webpackFinal: async (config,) => {
     config.resolve.alias = {
        ...config.resolve.alias,
-       "@styles": path.resolve(__dirname, "../app/styles/stitches.config",),
+       "~/": path.resolve(__dirname, "../app/*",),
      }
      return config;
    }
