@@ -41,7 +41,7 @@
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "@types/styled-components": "^5.1.18",
-    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.8.1",
     "esbuild-jest": "^0.5.0",
     "eslint": "^8.5.0",
