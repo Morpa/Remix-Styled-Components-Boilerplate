@@ -8,8 +8,7 @@ import {
   ScrollRestoration,
   MetaFunction
 } from 'remix'
-import { useContext } from 'react'
-import { StyleContext } from './context'
+
 import GlobalStyles from '~/styles/global'
 
 export const meta: MetaFunction = () => {
@@ -34,8 +33,6 @@ export const links: LinksFunction = () => {
 }
 
 export default function App() {
-  const styles = useContext(StyleContext)
-
   return (
     <html lang="en">
       <head>
@@ -43,13 +40,7 @@ export default function App() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
-        {styles !== null && (
-          <style
-            dangerouslySetInnerHTML={{
-              __html: `</style>${styles}<style>`
-            }}
-          />
-        )}
+        {typeof document === 'undefined' ? '__STYLES__' : null}
       </head>
       <body>
         <GlobalStyles />

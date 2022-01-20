@@ -1,4 +1,4 @@
-import GlobalStyles from "../app/styles/global";
+import GlobalStyles from '../app/styles/global'
 
 export const Wrapper = ({ children }) => {
   return (
@@ -6,5 +6,5 @@ export const Wrapper = ({ children }) => {
       <GlobalStyles />
       {children}
     </>
-  );
-};
+  )
+}
