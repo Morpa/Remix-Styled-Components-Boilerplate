@@ -1843,11 +1843,12 @@
     node-fetch "^2.6.1"
     source-map "^0.7.3"
 
-"@remix-run/react@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.1.1.tgz#e0b0d15e4f1c76431b5beb6e47a0eb6125b5d09e"
-  integrity sha512-vz7my0sqjuL3BpgvSb+pUFjebof54okDLm2wHI09NnlbPS1ILrrp61zeNmDyrA11tFcxS/JrgKS/q1Frk030mg==
+"@remix-run/react@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.2.1.tgz#428b5213f89f91881231b9b8ccc641af7fec7453"
+  integrity sha512-s+3dvT+LaRCj0AR47LxXjbgArbAWcgUCZi4NPA+B2M8bKMoSFkHDBshuDmUm4squLrRk6JSvC6QiKvrxeyuuQg==
   dependencies:
+    history "^5.2.0"
     react-router-dom "^6.2.1"
 
 "@remix-run/serve@^1.2.1":
