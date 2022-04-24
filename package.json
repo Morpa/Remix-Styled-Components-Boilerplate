@@ -37,7 +37,7 @@
     "@storybook/addon-essentials": "^6.4.21",
     "@storybook/react": "^6.4.20",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^12.1.4",
+    "@testing-library/react": "^13.1.1",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^18.0.2",
     "@types/styled-components": "^5.1.24",
