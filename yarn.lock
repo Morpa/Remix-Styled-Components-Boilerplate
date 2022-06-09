@@ -2019,24 +2019,22 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
-"@remix-run/dev@^1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.4.3.tgz#f9379f01bce982a08d12b99206db422db0328125"
-  integrity sha512-uvN0UzN97KlGIyotQKB631N92eRAffsMmzC6meoqrejZ9aYQrIM0l/hX3nMjjmbCTKI1Dq29szpMIn6fs5T78g==
+"@remix-run/dev@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.5.1.tgz#424d245e668f59a10ff066d4d280d42eb70ac525"
+  integrity sha512-ioOlBnsesOpXSMEf1g28zfcrD6ZVWi55tWDWkWMnTXi+N7HwisMi4Okh1RDxoH86Px0jvNgvUeMHQpnxUZOmRw==
   dependencies:
     "@babel/core" "7.17.8"
     "@babel/plugin-syntax-jsx" "7.16.7"
     "@babel/preset-typescript" "7.16.7"
     "@esbuild-plugins/node-modules-polyfill" "^0.1.4"
     "@npmcli/package-json" "^2.0.0"
-    "@remix-run/server-runtime" "1.4.3"
+    "@remix-run/server-runtime" "1.5.1"
     cacache "^15.0.5"
     chalk "^4.1.2"
     chokidar "^3.5.1"
     dotenv "^16.0.0"
     esbuild "0.14.22"
-    esbuild-plugin-cache "^0.2.9"
-    execa "^5.1.1"
     exit-hook "2.2.1"
     express "4.17.3"
     fast-glob "3.2.11"
@@ -2059,9 +2057,8 @@
     remark-mdx-frontmatter "^1.0.1"
     semver "^7.3.5"
     sort-package-json "^1.55.0"
-    strip-bom "^4.0.0"
     tar-fs "^2.1.1"
-    tsconfig-paths "^3.14.0"
+    tsconfig-paths "^4.0.0"
     ws "^7.4.5"
     xdm "^2.0.0"
 
@@ -2104,18 +2101,6 @@
     compression "^1.7.4"
     express "^4.17.1"
     morgan "^1.10.0"
-
-"@remix-run/server-runtime@1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@remix-run/server-runtime/-/server-runtime-1.4.3.tgz#d9a76ea5ff00492ff9275e43bb099e69ac80010d"
-  integrity sha512-NgzoEAlIuZWv53oZRgxGz+jqkEtAa+veAuxlp5/UcZ/VhygpYIcfKwdx4eCOqJOi1TqILNWrh3cedEVvV0jccQ==
-  dependencies:
-    "@types/cookie" "^0.4.0"
-    cookie "^0.4.1"
-    jsesc "^3.0.1"
-    react-router-dom "^6.2.2"
-    set-cookie-parser "^2.4.8"
-    source-map "^0.7.3"
 
 "@remix-run/server-runtime@1.5.1":
   version "1.5.1"
@@ -3493,11 +3478,6 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
   integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
-"@types/json5@^0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
-  integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
-
 "@types/keyv@*":
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/@types/keyv/-/keyv-3.1.3.tgz#1c9aae32872ec1f20dcdaee89a9f3ba88f465e41"
@@ -3567,11 +3547,6 @@
   version "16.11.36"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.36.tgz#9ab9f8276987132ed2b225cace2218ba794fc751"
   integrity sha512-FR5QJe+TaoZ2GsMHkjuwoNabr+UrJNRr2HNOo+r/7vhcuntM6Ee/pRPOnRhhL2XE9OOvX9VLEq+BcXl3VjNoWA==
-
-"@types/node@^14.11.8", "@types/node@^14.14.11":
-  version "14.18.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.12.tgz#0d4557fd3b94497d793efd4e7d92df2f83b4ef24"
-  integrity sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -6113,22 +6088,6 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-deno-cache@^0.2.12:
-  version "0.2.12"
-  resolved "https://registry.yarnpkg.com/deno-cache/-/deno-cache-0.2.12.tgz#562967fe8fab43ee3b71bb908a101783394a95d7"
-  integrity sha512-Jv8utRPQhsm+kx9ky0OdUnTWBLKGlFcBoLjQqrpuDd9zhuciCLPmklbz1YYfdaeM0dgp1nwRoqlHu5sH3vmJGQ==
-  dependencies:
-    "@types/node" "^14.11.8"
-    "@types/node-fetch" "^2.5.7"
-    node-fetch "^2.6.1"
-
-deno-importmap@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/deno-importmap/-/deno-importmap-0.1.6.tgz#04656ff12793003eafbe20c3df59ea423740a4a6"
-  integrity sha512-nZ5ZA8qW5F0Yzq1VhRp1wARpWSfD0FQvI1IUHXbE3oROO6tcYomTIWSAZGzO4LGQl1hTG6UmhPNTP3d4uMXzMg==
-  dependencies:
-    "@types/node" "^14.14.11"
-
 depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
@@ -6605,14 +6564,6 @@ esbuild-openbsd-64@0.14.22:
   resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.22.tgz#2a73bba04e16d8ef278fbe2be85248e12a2f2cc2"
   integrity sha512-vK912As725haT313ANZZZN+0EysEEQXWC/+YE4rQvOQzLuxAQc2tjbzlAFREx3C8+uMuZj/q7E5gyVB7TzpcTA==
 
-esbuild-plugin-cache@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/esbuild-plugin-cache/-/esbuild-plugin-cache-0.2.9.tgz#b4466b0803c8de9c21be4855e2dab1b99ee8eae2"
-  integrity sha512-wSYkiLbaZWuFPdepopZ16/hjIDx+fow4/KbtuD8UQPlswFssI5Efgqmzg6hhqJk87fpOk6OYn5pEPftQ5i0mkg==
-  dependencies:
-    deno-cache "^0.2.12"
-    deno-importmap "^0.1.6"
-
 esbuild-sunos-64@0.14.22:
   version "0.14.22"
   resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.14.22.tgz#8fe03513b8b2e682a6d79d5e3ca5849651a3c1d8"
@@ -6963,7 +6914,7 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^5.0.0, execa@^5.1.1:
+execa@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
   integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
@@ -13828,13 +13779,12 @@ ts-pnp@^1.1.6:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
-tsconfig-paths@^3.14.0:
-  version "3.14.1"
-  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz#ba0734599e8ea36c862798e920bcf163277b137a"
-  integrity sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==
+tsconfig-paths@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-4.0.0.tgz#1082f5d99fd127b72397eef4809e4dd06d229b64"
+  integrity sha512-SLBg2GBKlR6bVtMgJJlud/o3waplKtL7skmLkExomIiaAtLGtVsoXIqP3SYdjbcH9lq/KVv7pMZeCBpLYOit6Q==
   dependencies:
-    "@types/json5" "^0.0.29"
-    json5 "^1.0.1"
+    json5 "^2.2.1"
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
