@@ -2035,10 +2035,10 @@
     source-map-support "^0.5.21"
     stream-slice "^0.1.2"
 
-"@remix-run/react@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.4.0.tgz#77a1a1adc767a407c5b5869d56afc4fa693e2823"
-  integrity sha512-sG1G6qoDNJXxnUqEh1DR+JaKM4jPDW9+xUs0npET5VhsyZWez116sQ39vBzL/ZUrif1WgQDr4YIL3Yo3MZR0vA==
+"@remix-run/react@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.6.0.tgz#17acee7d970fde447f013d5350a578d92622c6d5"
+  integrity sha512-fyCKGm0q7HvPmxNcSi1J79+5KCAAtAJwgMJU0swO0gVhHfOuV26YBTuEi4uJOFwunBIGE0bVqZCCvYpmi6ZN9w==
   dependencies:
     history "^5.3.0"
     react-router-dom "^6.2.2"
