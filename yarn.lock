@@ -2308,10 +2308,10 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
-"@remix-run/dev@^1.6.2":
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.6.2.tgz#fb6efbfa6470572be497249057f24df1059957af"
-  integrity sha512-nz3MX27majIHP3SJ5FNKyVKtbVrZlIzmgq8JUcHTrgSMwqykcQ3a8JZaMXL06QCKgM6u9YtFjBE9xczgjzLhEg==
+"@remix-run/dev@^1.6.3":
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/@remix-run/dev/-/dev-1.6.3.tgz#1e405954119f6540449d29930cb9890503800823"
+  integrity sha512-thGNy9usFUEBwrTKp8SzFe6IaoEplb0bZIXqylJw6y2HbS5CCsFoR7s937XIh4Er3tuPHCV09uzy/b1AEpzIaw==
   dependencies:
     "@babel/core" "^7.18.2"
     "@babel/plugin-syntax-jsx" "^7.17.12"
@@ -2319,7 +2319,7 @@
     "@babel/preset-typescript" "^7.17.12"
     "@esbuild-plugins/node-modules-polyfill" "^0.1.4"
     "@npmcli/package-json" "^2.0.0"
-    "@remix-run/server-runtime" "1.6.2"
+    "@remix-run/server-runtime" "1.6.3"
     "@yarnpkg/esbuild-plugin-pnp" "^2.0.0"
     cacache "^15.0.5"
     chalk "^4.1.2"
@@ -2406,10 +2406,10 @@
     set-cookie-parser "^2.4.8"
     source-map "^0.7.3"
 
-"@remix-run/server-runtime@1.6.2":
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/server-runtime/-/server-runtime-1.6.2.tgz#0f49247922f48f0dd066bbc097de7c7f5adb3791"
-  integrity sha512-QQ2v3dzpQ3vBkKPVT7ihq4f8kt1cOjn21qfLpzOLyAWOxXjnU1WlccCtuCgtRx0zj4LSr/Nyv0PXgWayzqHYtg==
+"@remix-run/server-runtime@1.6.3":
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/@remix-run/server-runtime/-/server-runtime-1.6.3.tgz#c3b2af52a5e3c6c3cee2c4885f6649ff7ce46eec"
+  integrity sha512-B4M0msXmWWceP73Iw5EPJxPo9pT/oHwUqksX8sCmwQ+WftH5Y5eVXREp1IaaY72nEStdKSuBTfFMJETX/zUBvw==
   dependencies:
     "@types/cookie" "^0.4.0"
     "@web3-storage/multipart-parser" "^1.0.0"
