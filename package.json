@@ -19,7 +19,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@remix-run/react": "^1.6.8",
+    "@remix-run/react": "^1.7.0",
     "@remix-run/serve": "^1.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
