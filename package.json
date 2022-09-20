@@ -19,7 +19,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@remix-run/react": "^1.7.0",
+    "@remix-run/react": "^1.7.1",
     "@remix-run/serve": "^1.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -41,7 +41,7 @@
     "@types/react": "^18.0.19",
     "@types/react-dom": "^18.0.6",
     "@types/styled-components": "^5.1.26",
-    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.37.0",
     "esbuild-jest": "^0.5.0",
     "eslint": "^8.23.0",
